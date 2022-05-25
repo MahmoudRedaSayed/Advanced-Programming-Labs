@@ -214,6 +214,7 @@ public class Main{
         IdentityObj.Transpose();
         System.out.println("Print After using the Transpose function \n");
         IdentityObj.Print();
+        //Check to the double
         Identity<Double> IdentityObj2=new Identity<Double>(3);
         Double arr3[]={1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0};
         IdentityObj2.SetNumbers(arr3);
@@ -222,7 +223,6 @@ public class Main{
         IdentityObj2.Transpose();
         System.out.println("Print After using the Transpose function \n");
         IdentityObj2.Print();
-        //Check to the double
     }
 }
 
